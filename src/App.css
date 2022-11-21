@@ -1,0 +1,41 @@
+body {
+  background-color: #212528;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: sans-serif, "Calibri Light";
+}
+
+button {
+  background-color: #293429;
+  color: rgba(255, 255, 255, 0.85);
+  font-family: sans-serif, "Calibri Light";
+  border-style: none;
+}
+
+input {
+  background-color: #1b1e1f;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: sans-serif, "Calibri Light";
+  border-style: none;
+}
+
+a:-webkit-any-link {
+  color: azure;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover:-webkit-any-link {
+  color: rgba(240, 255, 255, 0.22);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+input[type="checkbox" i] {
+  background-color: darkslategray;
+  cursor: default;
+  appearance: auto;
+  box-sizing: border-box;
+  margin: 3px 3px 3px 4px;
+  padding: initial;
+  border: initial;
+}
